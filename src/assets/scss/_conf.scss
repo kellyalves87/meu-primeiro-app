@@ -1,9 +1,19 @@
-/*|---------------| App Color Schema|---------------*/
+/*
+|--------------------------------------------------------------------------
+| App Color Schema
+|--------------------------------------------------------------------------
+*/
+
 $BLUE: #00376C;
 $PINK: #B51942;
 $GRAY: #707070;
 
-/*|---------------| BREAKPOINTS|---------------*/
+
+/*
+|--------------------------------------------------------------------------
+| BREAKPOINTS
+|--------------------------------------------------------------------------
+*/
 
 // Usage example:  @media #{$BREAKPOINT-DESK}
 
@@ -12,14 +22,18 @@ $BREAKPOINT-TABLET-LAND: "only screen and (min-width: 975px)";
 $BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
 $BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 480px)";
 
-/*|---------------|MIXINS|---------------*/
+
+/*
+|--------------------------------------------------------------------------
+| Mixins
+|--------------------------------------------------------------------------
+*/
 
 @mixin margin-page {
-    width: calc(100% - 40px);
-    margin: 0 auto;
-  
-    @media #{$BREAKPOINT-DESK} {
-      max-width: 1000px;
-    }
+  width: calc(100% - 40px);
+  margin: 0 auto;
+
+  @media #{$BREAKPOINT-DESK} {
+    max-width: 1000px;
   }
-  
+}

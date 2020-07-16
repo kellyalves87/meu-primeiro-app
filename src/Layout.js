@@ -16,4 +16,4 @@ const Body = (props) => {
   )
 }
 
-export default withRouter(Body);
+export default withRouter(Body)
