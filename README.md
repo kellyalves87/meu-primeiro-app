@@ -26,7 +26,7 @@ Utilize o comando abaixo na raíz do projeto para de fato inicializar o seu serv
 npm start
 ```
 
-## Github pages
+## Github Pages
 
 https://kellyalves87.github.io/meu-primeiro-app/
 
