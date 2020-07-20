@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import Progress from "../../components/Progress";
 
 const Home = () =>  {
-  const [subscribers, setSubscribers] = useState(133);
+  const [subscribers] = useState(133);
   const goal = 1000;
 
   return (
