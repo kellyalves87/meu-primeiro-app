@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tutorial ReactJs do zero: Criando um contador de inscritos do Youtube
 
-## Available Scripts
+O ReactJS é uma tecnologia Javascript que rapidamente ganhou espaço no mercado e está sendo utilizado em larga escala. Com isso, torna-se essencial entender o seu funcionamento.
 
-In the project directory, you can run:
+Neste projeto criei uma aplicação ReactJs do zero, entendo os fundamentos do React, organização de pastas, arquivos e inicialização dos componentes e páginas. Gerando assim uma espécie de “esqueleto” da aplicação, que serve como ponto de partida para o desenvolvimento das estruturas e estilos da página web.
 
-### `npm start`
+## Instalação
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para rodar esta aplicação, você precisa ter o Node.js instalado em sua máquina.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**_Importante citar que a versão do Node.js deve ser maior que 5.2_**
 
-### `npm test`
+Com o Node.js instalado, você terá acesso ao pacote npx. E utilize o comando abaixo, utilizando seu terminal, para inicializar sua aplicação:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npx create-react-app nome-do-meu-app
+```
 
-### `npm run build`
+Após a execução do comando acima, todas as dependências necessárias para a criação do projeto serão devidamente instaladas. Além disso, um “projeto modelo” é criado, com toda a sua estrutura de diretórios definida.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Rodando o projeto
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Utilize o comando abaixo na raíz do projeto para de fato inicializar o seu servidor:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+## Autor
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Kelly Alves - Com os tutoriais concedidos por [Programadores Brasil](https://programadoresbrasil.com.br/)
