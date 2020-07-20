@@ -28,7 +28,7 @@ npm start
 
 ## Github pages
 
-[Github Pages](https://kellyalves87.github.io/meu-primeiro-app/)
+https://kellyalves87.github.io/meu-primeiro-app/
 
 ## Autor
 
